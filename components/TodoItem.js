@@ -1,4 +1,7 @@
 import React from 'react';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+
 import { useDispatch } from "react-redux";
 import { deleteTask } from "../redux/tasksSlice";
 const TodoItem = ({ id, title }) => {
